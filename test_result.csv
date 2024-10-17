@@ -4,4 +4,3 @@ time, city_id, city, country, weather, description, temp_c, temp_min_c, temp_max
 1729152669, 6058560, London, CA, Clouds, "broken clouds", 0.36, 0.14, 3.18, 1027, 93, 10000, 1.33, 358
 1729152660, 2643743, London, GB, Clouds, "broken clouds", 14.33, 12.87, 15.58, 1009, 90, 10000, 1.34, 272
 1729152668, 706483, Kharkiv, UA, Clouds, "overcast clouds", 7.55, 7.55, 7.55, 1028, 69, 10000, 5.04, 7
-1729152669, 6058560, London, CA, Clouds, "broken clouds", 0.36, 0.14, 3.18, 1027, 93, 10000, 1.33, 358

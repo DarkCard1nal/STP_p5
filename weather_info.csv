@@ -1,3 +1,7 @@
 time, city_id, city, country, weather, description, temp_c, temp_min_c, temp_max_c, pressure_hPa, humidity_per, visibility_m, wind_speed_ms, wind_deg
 1729154237, 6058560, London, CA, Fog, fog, -0.53, -0.82, 0.28, 1027, 94, 10000, 1.54, 90
 1729154237, 6058560, London, CA, Fog, fog, -0.53, -0.82, 0.28, 1027, 94, 10000, 1.54, 90
+1729155407, 6058560, London, CA, Fog, fog, -0.53, -0.82, 0.28, 1027, 94, 10000, 1.54, 90
+1729155314, 2643743, London, GB, Clouds, "broken clouds", 14.7, 13.28, 15.72, 1010, 90, 10000, 2.68, 259
+1729155445, 706483, Kharkiv, UA, Clouds, "overcast clouds", 8.57, 8.57, 8.57, 1027, 62, 10000, 5.14, 14
+1729155445, 706483, Kharkiv, UA, Clouds, "overcast clouds", 8.57, 8.57, 8.57, 1027, 62, 10000, 5.14, 14
