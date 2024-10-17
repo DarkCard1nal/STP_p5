@@ -4,13 +4,15 @@ require 'csv'
 require 'fileutils'
 require_relative 'constants'
 
-# class WeatherInfo
+# class FileManager exports array data to csv file, where headers are keys
 class FileManager
 	def initialize
 		raise NotImplementedError
 	end
 
 	# rubocop:disable Metrics/MethodLength
+
+	# exports array data to csv file, where headers are keys returns nil if file is unavailable
 	def self.export_csv(data, file_path = Constants::FILE_PATH)
 		if File.exist?(file_path)
 			return nil unless File.writable?(file_path)
