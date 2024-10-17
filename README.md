@@ -30,18 +30,18 @@ The program supports input by using command line arguments.
 # Examples
 
 ```ruby
-> ruby program.rb 'London, CA'
+> ruby program.rb 'London, Canada'
 The result of the call will be written to the fileweather_info.csv
 
 > ruby program.rb
 "WeatherInfo" by Shkilnyi V. CS31
-Enter the name of the city (for example, London, CA):
+Enter the name of the city (for example, London, Canada):
 > London
 The result of the call will be written to the fileweather_info.csv
 
 > ruby program.rb
 "WeatherInfo" by Shkilnyi V. CS31
-Enter the name of the city (for example, London, CA):
+Enter the name of the city (for example, London, Canada):
 
 No coordinates found for this location.
 Error! Check the input!
