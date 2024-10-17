@@ -1,0 +1,3 @@
+time, city_id, city, country, weather, description, temp_c, temp_min_c, temp_max_c, pressure_hPa, humidity_per, visibility_m, wind_speed_ms, wind_deg
+1729154237, 6058560, London, CA, Fog, fog, -0.53, -0.82, 0.28, 1027, 94, 10000, 1.54, 90
+1729154237, 6058560, London, CA, Fog, fog, -0.53, -0.82, 0.28, 1027, 94, 10000, 1.54, 90

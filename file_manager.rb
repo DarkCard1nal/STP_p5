@@ -12,10 +12,11 @@ class FileManager
 
 	# rubocop:disable Metrics/MethodLength
 
-	# exports array data to csv file, where headers are keys returns nil if file is unavailable
+	# exports array data to csv file, where headers are keys,
+	# returns file_path if successful, or an error text if the file is not writable
 	def self.export_csv(data, file_path = Constants::FILE_PATH)
 		if File.exist?(file_path)
-			return nil unless File.writable?(file_path)
+			return file_path + Constants::NO_AVAILABLE_FILE unless File.writable?(file_path)
 
 			CSV.open(file_path, 'a+', col_sep: ', ') do |csv|
 				csv << data.values
